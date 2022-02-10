@@ -31,7 +31,7 @@ class Config(object):
     TZ = os.environ.get("TZ", "Asia/Kolkata")
     # set this with required cat repo link
     UPSTREAM_REPO = os.environ.get(
-        "UPSTREAM_REPO", "https://github.com/sandy1709/catuserbot.git"
+        "UPSTREAM_REPO", "https://github.com/kaal0408/KAAAL.git"
     )
 
     # BASIC and MAIN CONFIG VARS
@@ -82,22 +82,7 @@ class Config(object):
     NO_LOAD = [x for x in os.environ.get("NO_LOAD", "").split()]
     # For custom alive pic
     ALIVE_PIC = os.environ.get("ALIVE_PIC", None)
-    # for Custom pmpermit pic
-    PMPERMIT_PIC = os.environ.get("PMPERMIT_PIC", None)
-    # for custom pic for .digitalpfp
-    DIGITAL_PIC = os.environ.get("DIGITAL_PIC", None)
-    # your default pic telegraph link
-    DEFAULT_PIC = os.environ.get("DEFAULT_PIC", None)
-    # set this with your default bio
-    DEFAULT_BIO = os.environ.get("DEFAULT_BIO", None)
-    # set this with your deafult name
-    DEFAULT_NAME = os.environ.get("DEFAULT_NAME", None)
-    # forcustomizing pmpermit text
-    CUSTOM_PMPERMIT_TEXT = os.environ.get("CUSTOM_PMPERMIT_TEXT", None)
-    # number of rows of buttons to be displayed in .help command
-    NO_OF_BUTTONS_DISPLAYED_IN_H_ME_CMD = int(
-        os.environ.get("NO_OF_BUTTONS_DISPLAYED_IN_H_ME_CMD", 7)
-    )
+    
     # number of rows of buttons to be displayed in .helpme command
     NO_OF_COLOUMS_DISPLAYED_IN_H_ME_CMD = int(
         os.environ.get("NO_OF_COLOUMS_DISPLAYED_IN_H_ME_CMD", 3)
@@ -108,56 +93,8 @@ class Config(object):
     # this should be a valid "regex" pattern
     COMMAND_HAND_LER = os.environ.get("COMMAND_HAND_LER", r"\.")
     SUDO_COMMAND_HAND_LER = os.environ.get("SUDO_COMMAND_HAND_LER", r"\.")
-    # set this with required folder path to act as download folder
-    TMP_DOWNLOAD_DIRECTORY = os.environ.get("TMP_DOWNLOAD_DIRECTORY", "./downloads")
-    # set this with required folder path to act as temparary folder
-    TEMP_DIR = os.environ.get("TEMP_DIR", "./temp/")
-    # For custom stickerpack names
-    CUSTOM_STICKER_PACKNAME = os.environ.get("CUSTOM_STICKER_PACKNAME", None)
-    # time to update autoprofile cmds
-    CHANGE_TIME = int(os.environ.get("CHANGE_TIME", 60))
-    # SpamWatch, CAS, SpamProtection ban Needed or not
-    ANTISPAMBOT_BAN = os.environ.get("ANTISPAMBOT_BAN", False)
-    # is dual logging needed or not true or false
-    DUAL_LOG = os.environ.get("DUAL_LOG", False)
 
-    # API VARS FOR USERBOT
-    # Get your own ACCESS_KEY from http://api.screenshotlayer.com/api/capture for screen shot
-    SCREEN_SHOT_LAYER_ACCESS_KEY = os.environ.get("SCREEN_SHOT_LAYER_ACCESS_KEY", None)
-    # Get your own APPID from https://api.openweathermap.org/data/2.5/weather
-    OPEN_WEATHER_MAP_APPID = os.environ.get("OPEN_WEATHER_MAP_APPID", None)
-    # This is required for the speech to text plugin. Get your USERNAME from
-    # https://console.bluemix.net/docs/services/speech-to-text/getting-started.html
-    IBM_WATSON_CRED_URL = os.environ.get("IBM_WATSON_CRED_URL", None)
-    IBM_WATSON_CRED_PASSWORD = os.environ.get("IBM_WATSON_CRED_PASSWORD", None)
-    # Get a Free API Key from OCR.Space
-    OCR_SPACE_API_KEY = os.environ.get("OCR_SPACE_API_KEY", None)
-    # Genius lyrics get this value from https://genius.com/developers both has
-    GENIUS_API_TOKEN = os.environ.get("GENIUS_API_TOKEN", None)
-    # Get your own API key from https://www.remove.bg/
-    REM_BG_API_KEY = os.environ.get("REM_BG_API_KEY", None)
-    # Google Drive plugin https://telegra.ph/G-Drive-guide-for-catuserbot-01-01
-    G_DRIVE_CLIENT_ID = os.environ.get("G_DRIVE_CLIENT_ID", None)
-    G_DRIVE_CLIENT_SECRET = os.environ.get("G_DRIVE_CLIENT_SECRET", None)
-    G_DRIVE_FOLDER_ID = os.environ.get("G_DRIVE_FOLDER_ID", None)
-    G_DRIVE_AUTH_TOKEN_DATA = os.environ.get("G_DRIVE_AUTH_TOKEN_DATA", None)
-    G_DRIVE_DATA = os.environ.get("G_DRIVE_DATA", None)
-    G_DRIVE_INDEX_LINK = os.environ.get("G_DRIVE_INDEX_LINK", None)
-    # For transfer channel 2 step verification code of telegram
-    TG_2STEP_VERIFICATION_CODE = os.environ.get("TG_2STEP_VERIFICATION_CODE", None)
-    # JustWatch Country for watch plugin
-    WATCH_COUNTRY = os.environ.get("WATCH_COUNTRY", "IN")
-    # Last.fm plugin  https://telegra.ph/Guide-for-LASTFM-02-03
-    BIO_PREFIX = os.environ.get("BIO_PREFIX", None)
-    LASTFM_API = os.environ.get("LASTFM_API", None)
-    LASTFM_SECRET = os.environ.get("LASTFM_SECRET", None)
-    LASTFM_USERNAME = os.environ.get("LASTFM_USERNAME", None)
-    LASTFM_PASSWORD_PLAIN = os.environ.get("LASTFM_PASSWORD", None)
-    # SpamWatch API you can get it from get api from http://t.me/SpamWatchBot?start=token
-    SPAMWATCH_API = os.environ.get("SPAMWATCH_API", None)
-    # can get from https://coffeehouse.intellivoid.net/
-    LYDIA_API_KEY = os.environ.get("LYDIA_API_KEY", None)
-    # github vars
+    
     GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
     GIT_REPO_NAME = os.environ.get("GIT_REPO_NAME", None)
     # Deepai value can get from https://deepai.org/
