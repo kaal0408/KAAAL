@@ -1,13 +1,13 @@
 {
   "name": "COPYCAT SPAM USERBOT",
-  "description": "A SPAM USERBOT MADE BY COPYCAT ....... Owner - @My_Love_Coming_Near ",
+  "description": "A SPAM USERBOT MADE BY KAAL ....... Owner - @Murat_30_God",
   "logo": "https://telegra.ph/file/5bb2ae9514d561c440879.jpg",
   "keywords": [
     "plugin",
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/Copycat-izz-opp/CopyCat_Spam_Bot/",
+  "repository": "https://github.com/kaal0408/KAAAL/",
   "website": "#TODO",
   "success_url": "#TODO",
   "env": {
@@ -21,11 +21,11 @@
     } ,
     "SUDO_USERS": {
       "description": "Sudo Users IDs",
-      "value": "1511772190"
+      "value": ""
     },
     "API_HASH": {
       "description": "Get this value from my.telegram.org! Please do not steal",
-      "value": "c180ae374f350ed3e6f9d4edec3e147c"
+      "value": ""
     },
     "STRING_SESSION": {
       "description": "Get this value by running python3 telesetup.py locally or https://generatestringsession.sandeep1709.repl.run",
@@ -33,11 +33,11 @@
     },
     "TG_BOT_USERNAME": {
       "description": "Needed for inline buttons maker. Make a bot at http://telegram.dog/BotFather and get the username of your bot",
-      "value": "@Copycat_Spam_Userbot"
+      "value": ""
     },
     "TG_BOT_TOKEN": {
       "description": "Needed for inline buttons maker. Make a bot at http://telegram.dog/BotFather and get the token of your bot.Worth it. Get it.",
-      "value": "1916793561:AAFXwhZ22AnvQhOyzokv86297cyx58YfE-k"
+      "value": ""
     },
     "SUDO_COMMAND_HAND_LER": {
       "description": "Sudo Users Command Handler",
@@ -70,7 +70,7 @@
     },
     "UPSTREAM_REPO": {
       "description": "Use either goodcat or badcat .if you need custom deploy then type your git repo link",
-      "value": "Copycat",
+      "value": "KAAAL",
       "required": false
     }
   },
